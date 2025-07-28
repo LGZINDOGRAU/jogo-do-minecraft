@@ -1,1 +1,37 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Evita barras de rolagem */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222; /* Fundo escuro */
+    font-family: Arial, sans-serif;
+    color: #eee;
+}
+
+h1 {
+    color: #4CAF50; /* Cor verde para o título */
+    margin-bottom: 20px;
+}
+
+canvas {
+    background-color: #000; /* Fundo preto inicial para o canvas */
+    border: 2px solid #4CAF50; /* Borda verde */
+    display: block; /* Remove espaços extras abaixo do canvas */
+}
+
+.controls-info {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.controls-info p {
+    margin: 5px 0;
+}
 
